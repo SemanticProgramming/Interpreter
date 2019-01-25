@@ -7,7 +7,7 @@
 #### Get GIT repository:
 Clone via bash...
 
-    git clone ssh://git@git.morphdbase.de:6020/roman/java-code.git
+    git clone https://github.com/SemanticProgramming/Interpreter.git
 
 #### Setup a Web server:
 Install a Web server e.g. Jetty:

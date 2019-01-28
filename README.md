@@ -5,7 +5,7 @@ We develop a Semantic Programming Ontology (SPrO; https://github.com/SemanticPro
 Further information on the project is available at http://escience.biowikifarm.net - feel free to contact us at 
 dev@morphdbase.de
 
-This repository contains the Java-based Interpreter for Semantic Programming based on the Semantic Programming Ontology (SPrO). It interprets and executes specifications of Semantic Web applications contained in source code ontologies. For Semantic Programming you also need the Source Code Ontology (SPrO; https://github.com/SemanticProgramming/SPrO) and the interface (https://github.com/SemanticProgramming/Interface).
+This repository contains the Java-based Interpreter for Semantic Programming based on the Semantic Programming Ontology (SPrO). It interprets and executes specifications of Semantic Web applications contained in source code ontologies. For Semantic Programming you also need the Source Code Ontology (SPrO; https://github.com/SemanticProgramming/SPrO) and the interface (https://github.com/SemanticProgramming/Interface). Basic functionalities are described in the SOCCOMAS source code ontology (SC-Basic; https://github.com/SemanticProgramming/SOCCOMAS) and can be re-used for your Semantic Web application.
 
 **Please be aware that this project is ongoing research! This code is for demonstration purposes only. Do not use
  in production environment!**

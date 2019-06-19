@@ -2,6 +2,24 @@
 # Java Interpreter
 We develop a Semantic Programming Ontology (SPrO; https://github.com/SemanticProgramming/SPrO) that is used for software programming. SPrO can be used like a programming language with which one can control a data-centric Semantic Web application by describing it within a corresponding source code ontology. With the terms from SPrO you can describe the graphical user interface (GUI), data representations, user interactions, and all workflow processes of a Semantic Web application. The Java Interpreter functions as an interpreter that dynamically interprets and executes the descriptions in a source code ontology by interpreting them as declarative specifications. 
 
+
+Currently, the following functions have been implemented:
+* source code ontology to program logic (application tier);
+* generation of triples, including the generation of new resources;
+* logic for saving and retrieving triples from different named graphs and different directories;
+* handling incoming information from WebSocket;
+* provide information from application ontology and from tuple store to WebSocket;
+* basic user administration;
+* sessions management;
+* input-control based on specifications contained in source code ontologies;
+* integration of a Lucene-index for fast and thus user-friendly auto-complete input fields;
+* implementation of the following basic workflows: log-in, log-out, sign-up, tracking provenance, tracking user contributions, tracking change-log, editing an input field;
+* implementation of all session-related workflow actions;
+* handling dynamic composition updates of a document.
+
+
+
+
 Further information on the project is available at http://escience.biowikifarm.net - feel free to contact us at 
 dev@morphdbase.de
 
